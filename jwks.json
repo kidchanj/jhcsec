@@ -3,8 +3,9 @@
     {
       "kty": "RSA",
       "alg": "RS256",
+      "use": "sig",
       "kid": "hyechan",
-      "n": "mAkVASUg6VcmRdG0bxik4IIyNHgw1e3hs9lPlLwFndXL5XuPkqP0DtzbXwJh4euu-vZ5Yd8SIRKZ4taKJ_sZEp0MmQB01R3tL1ndpjIiHnKPQftF0woJjXnRhBvzHG5h2Q_6ukO-z-3o18p2zOK8YbFWvLPV32LKonwlnfg19HhjmluSxv5wzJbZIL40rLE9i5CbDn07dTGnhJ5EJXl0tIpkgs_sfsQZwT5N3jn97kSJ7CHbilGs-iAyMWwklc5CFRo1ikAdj0fKY6dFlTrBb5CtZNQaHqePVpYPsi1E1KK5vNbPNglQsC8JloMUlazM3-jQHZDk_tklyvhWTSEyQQ",
+      "n": "qwSdie1iX4SjViVhZ_SRhmSGu74ZzBZv8VXiUcOmd6lNeD9P8cPHzOFF44o2fK0F31ZGx6LoJbfZztX_XUFnW9Y0yVOsqNCIDkQ-WGTGaHVmun-AwmsyHQMcHkZ-gR4GzywFHb6E9_Pwzv30du5IajPeeu9_NjepJKeTfEqW68TbNoRJkeqDpheW1TCVBmDtLRi5hKiX7skfKnqBpeLD1HajtdPTZAu5Lz9BasHeljXZKPC3tCkY5PPtkwBXHh7zJrbvILke05yBxkCNY0WhwNVwgLqt9oha2cekgB7Euncyg-wklrWX7XYRtIkWbYfzPaAKJ79woAW38WuQ6OWafw",
       "e": "AQAB"
     }
   ]
