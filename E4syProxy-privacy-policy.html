@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Proxy Switch Lite</title>
+<style>
+  :root {
+    --bg: #0f1115; --card:#151922; --text:#e6e9ef; --muted:#9aa4b2; --accent:#4fc3f7;
+  }
+  html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  .wrap { max-width: 880px; margin: 40px auto; padding: 0 20px 60px; }
+  header { margin-bottom: 28px; }
+  h1 { font-size: 28px; margin: 0 0 6px; color: var(--accent); }
+  .meta { color: var(--muted); font-size: 14px; }
+  h2 { font-size: 20px; margin: 26px 0 10px; }
+  p { line-height: 1.65; }
+  ul { line-height: 1.65; padding-left: 20px; }
+  code { background:#0b0e13; padding:2px 6px; border-radius:6px; }
+  .card { background:var(--card); padding:18px; border-radius:12px; border:1px solid #1f2633; }
+  .lang { margin-top: 34px; border-top:1px dashed #2a3242; padding-top: 28px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .small { font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Privacy Policy — Proxy Switch Lite</h1>
+      <div class="meta">Effective date: 2025-09-02</div>
+    </header>
+
+    <section class="card">
+      <h2>1. Purpose</h2>
+      <p>This Chrome extension is designed solely to let users switch proxy connection modes within the browser (Direct, Proxy, System, or domain-specific proxy) quickly and locally.</p>
+
+      <h2>2. What Data We Collect</h2>
+      <p>We do <strong>not</strong> collect or transmit any personally identifiable information (PII), browsing history, authentication data, payment information, or analytics.</p>
+      <p>The only data stored is the proxy server host, port, and the last selected mode and domain choice. These values are saved <strong>locally</strong> in your browser via Chrome Storage and are <strong>never sent</strong> to external servers.</p>
+
+      <h2>3. Why We Request Permissions</h2>
+      <ul>
+        <li><code>proxy</code>: to switch Chrome’s network routing between Direct/Proxy/System/PAC modes.</li>
+        <li><code>storage</code>: to persist your proxy host/port and last-selected mode on the local device.</li>
+        <li><code>tabs</code>: to read the active tab’s URL in order to compute the registrable top-level domain for domain-specific proxy rules.</li>
+        <li><code>host_permissions</code> (<code>&lt;all_urls&gt;</code>): required to accurately access the active tab’s domain. It is used solely for domain calculation and <strong>never</strong> to read or modify page content.</li>
+      </ul>
+
+      <h2>4. Remote Code</h2>
+      <p>No remote code is fetched or executed. All logic is packaged with the extension.</p>
+
+      <h2>5. Data Sharing</h2>
+      <p>We do not sell, share, or transfer user data to third parties. No data is transmitted to external servers as part of the extension’s operation.</p>
+
+      <h2>6. Children’s Privacy</h2>
+      <p>This extension targets general audiences and does not knowingly process information from children.</p>
+
+      <h2>7. Changes to This Policy</h2>
+      <p>If the policy changes, we will update the effective date at the top of this page. Feature additions—if any—will remain limited to what is necessary to operate proxy switching.</p>
+
+      <h2>8. Contact</h2>
+      <p>If you have questions, contact the developer at <a href="mailto:you@example.com">you@example.com</a>. <!-- Replace with your contact email --></p>
+    </section>
+
+    <section class="lang">
+      <h1 style="font-size:22px; color: var(--accent); margin:0 0 6px;">개인정보 처리방침 — Proxy Switch Lite</h1>
+      <div class="meta">시행일: 2025-09-02</div>
+
+      <div class="card" style="margin-top:14px;">
+        <h2>1. 목적</h2>
+        <p>이 확장 프로그램은 브라우저 내에서 프록시 연결 방식을 (Direct, Proxy, System, 도메인별 프록시) 빠르고 로컬로 전환하는 것만을 목적으로 합니다.</p>
+
+        <h2>2. 수집하는 데이터</h2>
+        <p>개인식별정보(PII), 방문 기록, 인증 정보, 결제 정보, 분석 정보 등은 <strong>수집하거나 전송하지 않습니다</strong>.</p>
+        <p>저장되는 정보는 프록시 서버 주소(host), 포트(port), 마지막으로 선택한 모드 및 도메인 선택 값뿐이며, 이는 브라우저의 Chrome Storage에 <strong>로컬로 저장</strong>되며 외부 서버로 <strong>전송되지 않습니다</strong>.</p>
+
+        <h2>3. 권한 사용 근거</h2>
+        <ul>
+          <li><code>proxy</code>: Direct/Proxy/System/PAC 모드 간 네트워크 라우팅을 전환하기 위해 필요합니다.</li>
+          <li><code>storage</code>: 프록시 호스트/포트 및 마지막 선택 모드를 로컬에 저장하기 위해 필요합니다.</li>
+          <li><code>tabs</code>: 활성 탭의 URL을 확인하여 도메인별 프록시 적용을 위한 최상위 등록 가능 도메인(eTLD+1)을 계산하기 위해 필요합니다.</li>
+          <li><code>host_permissions</code> (<code>&lt;all_urls&gt;</code>): 활성 탭의 도메인을 정확히 확인하기 위해 필요합니다. 도메인 계산 이외의 목적으로 페이지 내용을 읽거나 수정하지 않습니다.</li>
+        </ul>
+
+        <h2>4. 원격 코드</h2>
+        <p>원격 서버에서 코드를 받아 실행하지 않습니다. 모든 로직은 확장 프로그램 패키지 내에 포함되어 있습니다.</p>
+
+        <h2>5. 데이터 공유</h2>
+        <p>사용자 데이터를 제3자에게 판매·공유·전송하지 않습니다. 확장 프로그램 동작 과정에서 외부 서버로 데이터가 전송되지 않습니다.</p>
+
+        <h2>6. 아동의 개인정보</h2>
+        <p>이 확장 프로그램은 일반 사용자를 대상으로 하며, 아동의 정보를 알 knowingly 수집·처리하지 않습니다.</p>
+
+        <h2>7. 정책 변경</h2>
+        <p>정책이 변경되면 본 문서 상단의 시행일을 갱신합니다. 기능 추가가 있더라도 프록시 전환에 필요한 범위를 벗어나지 않습니다.</p>
+
+        <h2>8. 연락처</h2>
+        <p>문의: <a href="mailto:hyechan0505@google.com">hyechan0505@google.com</a></p>
+      </div>
+      <p class="small">This page intentionally provides both English and Korean versions for Chrome Web Store reviewers and users.</p>
+    </section>
+  </div>
+</body>
+</html>
